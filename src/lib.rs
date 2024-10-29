@@ -46,6 +46,7 @@
 #![cfg_attr(any(not(docsrs), ci), deny(rustdoc::all))]
 #![forbid(non_ascii_idents, unsafe_code)]
 #![warn(clippy::nonstandard_macro_braces)]
+#![feature(error_in_core)]
 
 // For macro expansion internals only.
 // Ensures better hygiene in case a local crate `core` is present in workspace of the user code,
